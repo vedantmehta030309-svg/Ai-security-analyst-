@@ -820,6 +820,7 @@ Jul 18 05:18:21 kali NetworkManager[649]: <info>  [1784366301.2934] device (lo):
 Jul 18 05:18:21 kali NetworkManager[649]: <info>  [1784366301.2944] device (eth0): state change: unavailable -> disconnected (reason 'carrier-changed', managed-type: 'full')
 Jul 18 05:18:21 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
 Jul 18 05:18:21 kali systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+Jul 18 05:20:01 kali sshd[1234]: Failed password for root from 192.168.1.100 port 51422 ssh2
 Jul 18 05:18:21 kali NetworkManager[649]: <info>  [1784366301.3156] modem-manager: oFono is not available
 Jul 18 05:18:21 kali NetworkManager[649]: <info>  [1784366301.3157] modem-manager: ModemManager available
 Jul 18 05:18:21 kali NetworkManager[649]: <info>  [1784366301.3157] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
@@ -969,6 +970,7 @@ Jul 18 05:18:25 kali wireplumber[899]: spa.alsa: The decibel volume range for el
 Jul 18 05:18:25 kali wireplumber[899]: spa.alsa: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
 Jul 18 05:18:25 kali wireplumber[899]: spa.alsa: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
 Jul 18 05:18:25 kali dbus-daemon[896]: [session uid=111 pid=896 pidfd=5] Successfully activated service 'org.gtk.vfs.Daemon'
+Jul 18 05:22:10 kali sshd[1250]: Accepted password for kali from 192.168.1.105 port 51435 ssh2
 Jul 18 05:18:25 kali systemd[873]: Started gvfs-daemon.service - Virtual filesystem service.
 Jul 18 05:18:26 kali wireplumber[899]: default: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
 Jul 18 05:18:26 kali wireplumber[899]: spa.bluez5: BlueZ system service is not available
@@ -1431,3 +1433,16 @@ Jul 18 05:19:27 kali dbus-daemon[1014]: [session uid=1000 pid=1014 pidfd=5] Succ
 Jul 18 05:19:27 kali systemd[992]: Started xdg-desktop-portal.service - Portal service.
 Jul 18 05:20:08 kali sudo[2091]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/journalctl --since today --no-pager
 Jul 18 05:20:08 kali sudo[2091]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jul 18 05:24:50 kali sshd[1265]: Accepted password for root from 10.0.0.12 port 60012 ssh2
+Jul 18 05:23:40 kali sshd[1258]: Failed password for root from 203.0.113.25 port 51460 ssh2
+Jul 18 05:25:01 kali sshd[1300]: Failed password for root from 185.220.101.5 port 53001 ssh2
+Jul 18 05:25:05 kali sshd[1301]: Failed password for root from 185.220.101.5 port 53002 ssh2
+Jul 18 05:25:09 kali sshd[1302]: Failed password for root from 185.220.101.5 port 53003 ssh2
+Jul 18 05:25:13 kali sshd[1303]: Failed password for root from 185.220.101.5 port 53004 ssh2
+Jul 18 05:25:17 kali sshd[1304]: Failed password for root from 185.220.101.5 port 53005 ssh2
+Jul 18 05:30:15 kali sshd[1400]: Accepted password for root from 192.168.1.50 port 51500 ssh2
+Jul 18 05:32:05 kali sudo[1450]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+Jul 18 05:32:45 kali sudo[1455]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Jul 18 05:35:00 kali sshd[1500]: Failed password for invalid user admin from 203.0.113.50 port 52000 ssh2
+Jul 18 05:36:12 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Jul 18 05:37:05 kali sshd[1510]: Connection closed by authenticating user kali 192.168.1.110 port 53000 [preauth]
