@@ -1,0 +1,32 @@
+[
+  {
+    "patient_id": "P001",
+    "name": "Aarav Sharma",
+    "age": 34,
+    "gender": "Male",
+    "blood_type": "O+",
+    "medical_condition": "Hypertension",
+    "date_of_admission": "2026-01-15",
+    "doctor": "Dr. Mehra"
+  },
+  {
+    "patient_id": "P002",
+    "name": "Priya Patel",
+    "age": 28,
+    "gender": "Female",
+    "blood_type": "A-",
+    "medical_condition": "Asthma",
+    "date_of_admission": "2026-02-10",
+    "doctor": "Dr. Joshi"
+  },
+  {
+    "patient_id": "P003",
+    "name": "Rohan Verma",
+    "age": 45,
+    "gender": "Male",
+    "blood_type": "B+",
+    "medical_condition": "Diabetes",
+    "date_of_admission": "2026-03-05",
+    "doctor": "Dr. Gupta"
+  }
+]
