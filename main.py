@@ -1,14 +1,31 @@
 from parser import parser
-from detector import failed_login,successful_login,bruteforce
+from detector import (
+    failed_login,
+    successful_login,
+    bruteforce,
+    # root_login,
+    # sudo,
+)
 
 logs = parser()
-alerts = []
-alerts.extend(failed_login(logs))
-alerts.extend(successful_login(logs))
-alerts.extend(bruteforce(logs))
 
-print(f"total parsed logs :  {len(logs)}")
-print(f"Alerts :  {len(alerts)}")
+detectors = [
+    failed_login,
+    successful_login,
+    bruteforce,
+    # root_login,
+    # sudo,
+]
+
+alerts = []
+
+for detector in detectors:
+    alerts.extend(detector(logs))
+
+
+print(f"\nTotal parsed logs : {len(logs)}")
+print(f"Total alerts      : {len(alerts)}")
+
 
 for alert in alerts:
     print(alert)

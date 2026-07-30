@@ -5,63 +5,96 @@ from parser import IP_REGEX
 from collections import Counter
 
 
+def create_alert(log=None, severity="", attack_type="", **extra):
+    if log:
+        alert = log.copy()
+    else:
+        alert = {}
+
+    alert["severity"] = severity
+    alert["attack_type"] = attack_type
+
+    alert.update(extra)
+
+    return alert
+
+
+
 def failed_login(logs):
     alerts = []
+
     for log in logs:
         if "Failed password" in log["message"]:
-            alert=log.copy()
-            alert["severity"]="LOW"
-            alert["attack_type"]="Failed login attempt"
 
-            alerts.append(alert)
+            alerts.append(
+                create_alert(
+                    log,
+                    severity="LOW",
+                    attack_type="Failed Login"
+                )
+            )
+
     return alerts
-
 
 def successful_login(logs):
     alerts = []
-    for log in logs :
-        if "Accepted password" in log["message"]:
-            alert=log.copy()
-            alert["severity"]="INFO"
-            alert["attack_type"]="Successful login attempt"
-            message=log["message"].split()
-            for_index = message.index("for")
-            username = message[for_index + 1]
-            from_index = message.index("from")
-            ip = message[from_index + 1]
-            alert["username"]=username
-            alert["ip"]=ip
 
-            alerts.append(alert)
+    for log in logs:
+
+        if "Accepted password" in log["message"]:
+
+            message = log["message"].split()
+
+            username = message[message.index("for") + 1]
+            ip = message[message.index("from") + 1]
+
+            alerts.append(
+                create_alert(
+                    log,
+                    severity="INFO",
+                    attack_type="Successful Login",
+                    username=username,
+                    ip=ip
+                )
+            )
+
     return alerts
 
 
 
 def bruteforce(logs):
-    alerts=[]
+
+    alerts = []
+
     BRUTEFORCE_THRESHOLD = 5
+
     attacker_count = Counter()
-    # all malicious ip's
+
     for log in logs:
+
         if "Failed password" in log["message"]:
-            #ip isolate
-            ipMatch=IP_REGEX.search(log["message"])
-            if ipMatch:
-                ip=ipMatch.group("ip")
+
+            ip_match = IP_REGEX.search(log["message"])
+
+            if ip_match:
+                ip = ip_match.group("ip")
                 attacker_count[ip] += 1
 
-
     for ip, count in attacker_count.items():
-        if count >= BRUTEFORCE_THRESHOLD:
-            alert = {
-                "severity": "HIGH",
-                "attack_type": "Bruteforce",
-                "ip": ip,
-                "attempts": count
-            }
 
-            alerts.append(alert)
+        if count >= BRUTEFORCE_THRESHOLD:
+
+            alerts.append(
+                create_alert(
+                    severity="HIGH",
+                    attack_type="Bruteforce Attack",
+                    ip=ip,
+                    attempts=count
+                )
+            )
+
     return alerts
+
 
 
 def root_login():
