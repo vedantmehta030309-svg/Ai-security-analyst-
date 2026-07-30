@@ -1,9 +1,11 @@
 '''
 all the things are orchestrated in main.py ;)
 '''
+from email import message
+
 from parser import IP_REGEX
 from collections import Counter
-
+import re
 
 def create_alert(log=None, severity="", attack_type="", **extra):
     if log:
@@ -97,10 +99,47 @@ def bruteforce(logs):
 
 
 
-def root_login():
-    pass
-def sudo():
-    pass
+def root_login(logs):
+    alerts = []
+    for log in logs:
+        if "Accepted password for root" in log["message"]:
+            message = log["message"].split()
+            username = message[message.index("for") + 1]
+            ip = message[message.index("from") + 1]
+
+            alerts.append(
+                create_alert(
+                    log=log,
+                    severity="HIGH",
+                    attack_type="Root Login",
+                    username=username,
+                    ip=ip
+                )
+            )
+    return alerts
+
+
+SUDO_REGEX = re.compile(
+    r"(?P<username>\w+)\s*:\s.*?COMMAND=(?P<command>.+)"
+)
+def sudo(logs):
+    alerts = []
+    for log in logs:
+        if log["process"]!="sudo":
+            continue
+        match = SUDO_REGEX.match(log["message"])
+        if not match:
+            continue
+        alerts.append(
+            create_alert(
+                log=log,
+                severity="MEDIUM",
+                attack_type="Sudo Command",
+                username=match.group("username"),
+                command=match.group("command")
+            )
+        )
+    return alerts
 
 
 #f_l=successful_login(logs)

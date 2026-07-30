@@ -3,8 +3,8 @@ from detector import (
     failed_login,
     successful_login,
     bruteforce,
-    # root_login,
-    # sudo,
+    root_login,
+    sudo,
 )
 
 logs = parser()
@@ -13,8 +13,8 @@ detectors = [
     failed_login,
     successful_login,
     bruteforce,
-    # root_login,
-    # sudo,
+    root_login,
+    sudo,
 ]
 
 alerts = []
