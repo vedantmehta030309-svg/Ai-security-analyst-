@@ -6,6 +6,7 @@ from detector import (
     root_login,
     sudo,
 )
+from report import export_json , print_report
 
 logs = parser()
 
@@ -23,9 +24,5 @@ for detector in detectors:
     alerts.extend(detector(logs))
 
 
-print(f"\nTotal parsed logs : {len(logs)}")
-print(f"Total alerts      : {len(alerts)}")
-
-
-for alert in alerts:
-    print(alert)
+print_report(logs, alerts)
+export_json(alerts, "alerts.json")

@@ -1,0 +1,186 @@
+[
+    {
+        "timestamp": "Jul 18 05:20:01",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1234,
+        "message": "Failed password for root from 192.168.1.100 port 51422 ssh2",
+        "parsed_time": "2026-07-18T05:20:01",
+        "severity": "LOW",
+        "attack_type": "Failed Login"
+    },
+    {
+        "timestamp": "Jul 18 05:23:40",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1258,
+        "message": "Failed password for root from 203.0.113.25 port 51460 ssh2",
+        "parsed_time": "2026-07-18T05:23:40",
+        "severity": "LOW",
+        "attack_type": "Failed Login"
+    },
+    {
+        "timestamp": "Jul 18 05:25:01",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1300,
+        "message": "Failed password for root from 185.220.101.5 port 53001 ssh2",
+        "parsed_time": "2026-07-18T05:25:01",
+        "severity": "LOW",
+        "attack_type": "Failed Login"
+    },
+    {
+        "timestamp": "Jul 18 05:25:05",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1301,
+        "message": "Failed password for root from 185.220.101.5 port 53002 ssh2",
+        "parsed_time": "2026-07-18T05:25:05",
+        "severity": "LOW",
+        "attack_type": "Failed Login"
+    },
+    {
+        "timestamp": "Jul 18 05:25:09",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1302,
+        "message": "Failed password for root from 185.220.101.5 port 53003 ssh2",
+        "parsed_time": "2026-07-18T05:25:09",
+        "severity": "LOW",
+        "attack_type": "Failed Login"
+    },
+    {
+        "timestamp": "Jul 18 05:25:13",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1303,
+        "message": "Failed password for root from 185.220.101.5 port 53004 ssh2",
+        "parsed_time": "2026-07-18T05:25:13",
+        "severity": "LOW",
+        "attack_type": "Failed Login"
+    },
+    {
+        "timestamp": "Jul 18 05:25:17",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1304,
+        "message": "Failed password for root from 185.220.101.5 port 53005 ssh2",
+        "parsed_time": "2026-07-18T05:25:17",
+        "severity": "LOW",
+        "attack_type": "Failed Login"
+    },
+    {
+        "timestamp": "Jul 18 05:35:00",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1500,
+        "message": "Failed password for invalid user admin from 203.0.113.50 port 52000 ssh2",
+        "parsed_time": "2026-07-18T05:35:00",
+        "severity": "LOW",
+        "attack_type": "Failed Login"
+    },
+    {
+        "timestamp": "Jul 18 05:22:10",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1250,
+        "message": "Accepted password for kali from 192.168.1.105 port 51435 ssh2",
+        "parsed_time": "2026-07-18T05:22:10",
+        "severity": "INFO",
+        "attack_type": "Successful Login",
+        "username": "kali",
+        "ip": "192.168.1.105"
+    },
+    {
+        "timestamp": "Jul 18 05:24:50",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1265,
+        "message": "Accepted password for root from 10.0.0.12 port 60012 ssh2",
+        "parsed_time": "2026-07-18T05:24:50",
+        "severity": "INFO",
+        "attack_type": "Successful Login",
+        "username": "root",
+        "ip": "10.0.0.12"
+    },
+    {
+        "timestamp": "Jul 18 05:30:15",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1400,
+        "message": "Accepted password for root from 192.168.1.50 port 51500 ssh2",
+        "parsed_time": "2026-07-18T05:30:15",
+        "severity": "INFO",
+        "attack_type": "Successful Login",
+        "username": "root",
+        "ip": "192.168.1.50"
+    },
+    {
+        "severity": "HIGH",
+        "attack_type": "Bruteforce Attack",
+        "ip": "185.220.101.5",
+        "attempts": 5,
+        "window_start": "2026-07-18T05:25:01",
+        "window_end": "2026-07-18T05:25:17"
+    },
+    {
+        "timestamp": "Jul 18 05:24:50",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1265,
+        "message": "Accepted password for root from 10.0.0.12 port 60012 ssh2",
+        "parsed_time": "2026-07-18T05:24:50",
+        "severity": "HIGH",
+        "attack_type": "Root Login",
+        "username": "root",
+        "ip": "10.0.0.12"
+    },
+    {
+        "timestamp": "Jul 18 05:30:15",
+        "hostname": "kali",
+        "process": "sshd",
+        "pid": 1400,
+        "message": "Accepted password for root from 192.168.1.50 port 51500 ssh2",
+        "parsed_time": "2026-07-18T05:30:15",
+        "severity": "HIGH",
+        "attack_type": "Root Login",
+        "username": "root",
+        "ip": "192.168.1.50"
+    },
+    {
+        "timestamp": "Jul 18 05:20:08",
+        "hostname": "kali",
+        "process": "sudo",
+        "pid": 2091,
+        "message": "    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/journalctl --since today --no-pager",
+        "parsed_time": "2026-07-18T05:20:08",
+        "severity": "MEDIUM",
+        "attack_type": "Sudo Command",
+        "username": "kali",
+        "command": "/usr/bin/journalctl --since today --no-pager"
+    },
+    {
+        "timestamp": "Jul 18 05:32:05",
+        "hostname": "kali",
+        "process": "sudo",
+        "pid": 1450,
+        "message": "    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update",
+        "parsed_time": "2026-07-18T05:32:05",
+        "severity": "MEDIUM",
+        "attack_type": "Sudo Command",
+        "username": "kali",
+        "command": "/usr/bin/apt update"
+    },
+    {
+        "timestamp": "Jul 18 05:32:45",
+        "hostname": "kali",
+        "process": "sudo",
+        "pid": 1455,
+        "message": "    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh",
+        "parsed_time": "2026-07-18T05:32:45",
+        "severity": "MEDIUM",
+        "attack_type": "Sudo Command",
+        "username": "kali",
+        "command": "/usr/bin/systemctl restart ssh"
+    }
+]

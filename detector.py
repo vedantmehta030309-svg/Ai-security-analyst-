@@ -6,6 +6,7 @@ from email import message
 from parser import IP_REGEX
 from collections import Counter, defaultdict
 import re
+from config import CONFIG
 
 def create_alert(log=None, severity="", attack_type="", **extra):
     if log:
@@ -64,7 +65,7 @@ def successful_login(logs):
 
 
 
-def bruteforce(logs,threshold_count =5 , window_second = 60):
+def bruteforce(logs,threshold_count =CONFIG["bruteforce"]["threshold_count"] , window_second = CONFIG["bruteforce"]["window_seconds"]):
     alerts = []
     #attacker_count = Counter()
     attacker_timestamps = defaultdict(list)

@@ -1,0 +1,7 @@
+{
+    "log_path": "data/today_log.txt",
+    "bruteforce": {
+        "threshold_count": 5,
+        "window_seconds": 60
+    }
+}

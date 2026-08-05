@@ -6,12 +6,14 @@ all the things are orchestrated in main.py ;)
 import re
 from pathlib import Path
 from datetime import datetime
+from config import CONFIG
+
 
 
 #-----------------------------------------
 #VAR DECLARE
 
-LOG_PATH= Path('data') / 'test_log_1.txt'
+LOG_PATH= Path(CONFIG["log_path"])
 LOG_PATTERN = re.compile(r"""
                                 (?P<timestamp>\w{3}\s\d\d?\s\d{2}:\d{2}:\d{2})   # Timestamp
                                 \s
@@ -47,18 +49,6 @@ def parser():
                 log_data["pid"] = int(log_data["pid"])
                 parsed_logs.append(log_data)
 
-        print("analysis complete !!")
-        print(f"Parsed {len(parsed_logs)} log entries.")
-
-        # display 5 for now
-        print("preview :)  :\n")
-        for log in parsed_logs[:5]:
-            print(log)
-        '''
-        #display all
-        for log in parsed_logs:
-            print(log)
-        '''
         return parsed_logs
 
     except FileNotFoundError:
