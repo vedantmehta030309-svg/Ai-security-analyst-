@@ -11,7 +11,7 @@ from datetime import datetime
 #-----------------------------------------
 #VAR DECLARE
 
-LOG_PATH= Path('data') / 'today_log.txt'
+LOG_PATH= Path('data') / 'test_log_1.txt'
 LOG_PATTERN = re.compile(r"""
                                 (?P<timestamp>\w{3}\s\d\d?\s\d{2}:\d{2}:\d{2})   # Timestamp
                                 \s

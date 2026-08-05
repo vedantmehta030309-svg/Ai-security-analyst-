@@ -1,0 +1,52 @@
+Aug 01 08:00:00 kali kernel: Linux version 6.12.25-amd64 (devel@kali.org)
+Aug 01 08:00:00 kali kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-6.12.25-amd64 root=UUID=62fc7f6d ro quiet splash
+Aug 01 08:00:01 kali systemd[1]: Reached target Basic System.
+Aug 01 08:00:02 kali systemd[1]: Started Journal Service.
+Aug 01 08:00:03 kali systemd[1]: Started D-Bus System Message Bus.
+
+Aug 01 08:05:10 kali sshd[2001]: Failed password for kali from 198.51.100.10 port 40001 ssh2
+
+Aug 01 08:06:00 kali sshd[2002]: Accepted password for devuser from 192.168.1.20 port 40010 ssh2
+
+Aug 01 08:07:00 kali sshd[2003]: Accepted password for root from 192.168.1.99 port 40020 ssh2
+
+Aug 01 08:08:00 kali sudo[2004]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install nmap
+Aug 01 08:08:01 kali sudo[2004]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+
+Aug 01 08:20:00 kali sshd[2101]: Failed password for root from 45.33.32.10 port 51001 ssh2
+Aug 01 08:20:04 kali sshd[2102]: Failed password for root from 45.33.32.10 port 51002 ssh2
+Aug 01 08:20:08 kali sshd[2103]: Failed password for root from 45.33.32.10 port 51003 ssh2
+Aug 01 08:20:12 kali sshd[2104]: Failed password for root from 45.33.32.10 port 51004 ssh2
+Aug 01 08:20:16 kali sshd[2105]: Failed password for root from 45.33.32.10 port 51005 ssh2
+
+Aug 01 08:30:00 kali sshd[2110]: Failed password for admin from 45.33.32.11 port 52001 ssh2
+Aug 01 08:30:50 kali sshd[2111]: Failed password for admin from 45.33.32.11 port 52002 ssh2
+Aug 01 08:30:55 kali sshd[2112]: Failed password for admin from 45.33.32.11 port 52003 ssh2
+Aug 01 08:31:00 kali sshd[2113]: Failed password for admin from 45.33.32.11 port 52004 ssh2
+Aug 01 08:31:05 kali sshd[2114]: Failed password for admin from 45.33.32.11 port 52005 ssh2
+Aug 01 08:31:10 kali sshd[2115]: Failed password for admin from 45.33.32.11 port 52006 ssh2
+
+Aug 01 09:00:00 kali sshd[2201]: Failed password for oracle from 203.0.113.77 port 53001 ssh2
+Aug 01 11:00:00 kali sshd[2202]: Failed password for oracle from 203.0.113.77 port 53002 ssh2
+Aug 01 13:00:00 kali sshd[2203]: Failed password for oracle from 203.0.113.77 port 53003 ssh2
+Aug 01 15:00:00 kali sshd[2204]: Failed password for oracle from 203.0.113.77 port 53004 ssh2
+Aug 01 17:00:00 kali sshd[2205]: Failed password for oracle from 203.0.113.77 port 53005 ssh2
+
+Aug 01 09:40:00 kali sshd[2301]: Failed password for postgres from 172.16.5.5 port 54001 ssh2
+Aug 01 09:40:10 kali sshd[2302]: Failed password for postgres from 172.16.5.5 port 54002 ssh2
+Aug 01 09:40:20 kali sshd[2303]: Failed password for postgres from 172.16.5.5 port 54003 ssh2
+Aug 01 09:40:30 kali sshd[2304]: Failed password for postgres from 172.16.5.5 port 54004 ssh2
+
+Aug 01 10:00:00 kali sshd[2401]: Failed password for test from 66.66.66.66 port 55001 ssh2
+Aug 01 10:00:02 kali sshd[2402]: Failed password for guest from 77.77.77.77 port 56001 ssh2
+Aug 01 10:00:05 kali sshd[2403]: Failed password for test from 66.66.66.66 port 55002 ssh2
+Aug 01 10:00:07 kali sshd[2404]: Failed password for guest from 77.77.77.77 port 56002 ssh2
+Aug 01 10:00:10 kali sshd[2405]: Failed password for test from 66.66.66.66 port 55003 ssh2
+Aug 01 10:00:12 kali sshd[2406]: Failed password for guest from 77.77.77.77 port 56003 ssh2
+Aug 01 10:00:15 kali sshd[2407]: Failed password for test from 66.66.66.66 port 55004 ssh2
+Aug 01 10:00:17 kali sshd[2408]: Failed password for guest from 77.77.77.77 port 56004 ssh2
+Aug 01 10:00:20 kali sshd[2409]: Failed password for test from 66.66.66.66 port 55005 ssh2
+Aug 01 10:00:22 kali sshd[2410]: Failed password for guest from 77.77.77.77 port 56005 ssh2
+
+Aug 01 10:30:00 kali sudo[2500]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Aug 01 10:31:00 kali sshd[2501]: Accepted password for root from 192.168.1.150 port 57000 ssh2

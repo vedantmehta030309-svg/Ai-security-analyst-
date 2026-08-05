@@ -4,7 +4,7 @@ all the things are orchestrated in main.py ;)
 from email import message
 
 from parser import IP_REGEX
-from collections import Counter
+from collections import Counter, defaultdict
 import re
 
 def create_alert(log=None, severity="", attack_type="", **extra):
@@ -64,13 +64,10 @@ def successful_login(logs):
 
 
 
-def bruteforce(logs):
-
+def bruteforce(logs,threshold_count =5 , window_second = 60):
     alerts = []
-
-    BRUTEFORCE_THRESHOLD = 5
-
-    attacker_count = Counter()
+    #attacker_count = Counter()
+    attacker_timestamps = defaultdict(list)
 
     for log in logs:
 
@@ -80,20 +77,30 @@ def bruteforce(logs):
 
             if ip_match:
                 ip = ip_match.group("ip")
-                attacker_count[ip] += 1
+                attacker_timestamps[ip].append(log["parsed_time"])
 
-    for ip, count in attacker_count.items():
+    #run the sliding window SEPARATELY for each IP's own timeline.
+    for ip, timestamps in attacker_timestamps.items():
+        left = 0
+        for right in range(len(timestamps)):
+            # shrink from the left while the window is too WIDE IN TIME
+            while (timestamps[right] - timestamps[left]).total_seconds() > window_second:
+                left += 1
 
-        if count >= BRUTEFORCE_THRESHOLD:
-
-            alerts.append(
-                create_alert(
-                    severity="HIGH",
-                    attack_type="Bruteforce Attack",
-                    ip=ip,
-                    attempts=count
+            #to check if too wide in count
+            windows_size = right - left +1
+            if windows_size >= threshold_count:
+                alerts.append(
+                    create_alert(
+                        severity="HIGH",
+                        attack_type="Bruteforce Attack",
+                        ip=ip,
+                        attempts=windows_size ,
+                        window_start = timestamps[left],
+                        window_end = timestamps[right]
+                    )
                 )
-            )
+                break
 
     return alerts
 
@@ -120,13 +127,14 @@ def root_login(logs):
 
 
 SUDO_REGEX = re.compile(
-    r"(?P<username>\w+)\s*:\s.*?COMMAND=(?P<command>.+)"
+    r"^\s*(?P<username>\w+)\s*:\s.*?COMMAND=(?P<command>.+)"
 )
 def sudo(logs):
     alerts = []
     for log in logs:
         if log["process"]!="sudo":
             continue
+        print(repr(log["message"]))
         match = SUDO_REGEX.match(log["message"])
         if not match:
             continue
