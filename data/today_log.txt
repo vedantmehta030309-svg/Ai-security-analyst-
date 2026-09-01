@@ -1446,3 +1446,8 @@ Jul 18 05:32:45 kali sudo[1455]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=ro
 Jul 18 05:35:00 kali sshd[1500]: Failed password for invalid user admin from 203.0.113.50 port 52000 ssh2
 Jul 18 05:36:12 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
 Jul 18 05:37:05 kali sshd[1510]: Connection closed by authenticating user kali 192.168.1.110 port 53000 [preauth]
+
+Jul 18 06:10:00 kali sshd[2001]: Failed password for root from 198.51.100.77 port 51001 ssh2
+Jul 18 06:10:08 kali sshd[2002]: Failed password for root from 198.51.100.77 port 51002 ssh2
+Jul 18 06:10:16 kali sshd[2003]: Failed password for root from 198.51.100.77 port 51003 ssh2
+Jul 18 06:10:25 kali sshd[2004]: Accepted password for root from 198.51.100.77 port 51004 ssh2

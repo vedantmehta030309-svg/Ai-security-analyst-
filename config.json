@@ -3,5 +3,9 @@
     "bruteforce": {
         "threshold_count": 5,
         "window_seconds": 60
+    },
+    "correlation" : {
+        "threshold_count" : 3,
+        "windows_seconds" : 60
     }
 }
