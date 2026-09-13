@@ -89,14 +89,13 @@ def invalid_then_success(events, threshold_count = CONFIG["correlation"]["thresh
 
             #detect successful auth
             elif event.get("result")=="success":
-                if event.get("invalid_user") is True:
-                    #remove invaliduser outside the time window
-                    invalid_user_events=[
-                        invalid
-                        for invalid in invalid_user_events
-                            if(event["parsed_time"]-invalid["parsed_time"]
-                            ).total_seconds() <= windows_seconds
-                    ]
+                #remove invaliduser outside the time window
+                invalid_user_events=[
+                    invalid
+                    for invalid in invalid_user_events
+                        if(event["parsed_time"]-invalid["parsed_time"]
+                        ).total_seconds() <= windows_seconds
+                ]
 
                 if len(invalid_user_events) >= threshold_count:
                     incidents.append(
@@ -118,6 +117,8 @@ def invalid_then_success(events, threshold_count = CONFIG["correlation"]["thresh
                     )
                     invalid_user_events = []
 
+    return incidents
+
 def root_login_then_sudo(
         events,
         windows_seconds = CONFIG["correlation"]["windows_seconds"]
@@ -127,6 +128,9 @@ def root_login_then_sudo(
     sudo_events = []
 
     for event in events :
+        if not event.get("parsed_time"):
+            continue
+
         # TODO: detect successful root authentication
         # TODO: make sure event_type == "authentication"
         # TODO: make sure result == "success"
@@ -150,7 +154,7 @@ def root_login_then_sudo(
             sudo_time = sudo["parsed_time"]
 
             # TODO: calculate time difference
-            time_difference = (login_time - sudo_time).total_seconds()
+            time_difference = (sudo_time - login_time).total_seconds()
 
             # TODO: only correlate sudo activity that happened
             # AFTER the root login and within windows_seconds
@@ -187,7 +191,7 @@ def root_login_then_sudo(
 
 def multiple_acc_same_ip(
         events,
-        threshol_count = CONFIG["correlation"]["threshol_count"],
+        threshold_count = CONFIG["correlation"]["threshold_count"],
         windows_seconds = CONFIG["correlation"]["windows_seconds"]
 ):
     incidents = []
@@ -223,7 +227,7 @@ def multiple_acc_same_ip(
                     for attempt in username_events
                     if(
                         event["parsed_time"] - attempt["parsed_time"]
-                    ).total_seconds() > windows_seconds
+                    ).total_seconds() <= windows_seconds
                 ]
 
                 #get unique usernames in current window
@@ -233,7 +237,7 @@ def multiple_acc_same_ip(
                 )
 
                 #enough different account targeted
-                if len(usernames) > threshol_count:
+                if len(usernames) >= threshold_count:
                     incidents.append(
                         {
                             "incident_type": "Multiple Accounts From Same IP",
@@ -260,9 +264,17 @@ def multiple_acc_same_ip(
     return incidents
 
 
+def multiple_accounts_same_ip(
+        events,
+        threshold_count = CONFIG["correlation"]["threshold_count"],
+        windows_seconds = CONFIG["correlation"]["windows_seconds"]
+):
+    return multiple_acc_same_ip(events, threshold_count, windows_seconds)
+
+
 def same_acc_multiple_ips(
         events,
-        threshol_count = CONFIG["correlation"]["threshol_count"],
+        threshol_count = CONFIG["correlation"]["threshold_count"],
         windows_seconds = CONFIG["correlation"]["windows_seconds"]
 ):
     incidents = []
@@ -566,6 +578,34 @@ def ssh_login_then_session_activity(
                     )
                 }
             )
+
+    return incidents
+
+
+CORRELATION_RULES = [
+    failed_then_success,
+    invalid_then_success,
+    root_login_then_sudo,
+    multiple_accounts_same_ip,
+    same_acc_multiple_ips,
+    multiple_failed_then_root_login,
+    authentication_then_suspicious_sudo,
+    ssh_login_then_session_activity,
+]
+
+
+def run_correlations(events, rules=None):
+    incidents = []
+    normalized_events = [
+        event
+        for event in (events or [])
+        if isinstance(event, dict)
+    ]
+
+    for rule in rules or CORRELATION_RULES:
+        rule_incidents = rule(normalized_events)
+        if rule_incidents:
+            incidents.extend(rule_incidents)
 
     return incidents
 

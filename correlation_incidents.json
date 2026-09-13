@@ -1,0 +1,26 @@
+[
+    {
+        "incident_type": "Possible Account Compromise",
+        "attack_type": "Possible Account Compromise",
+        "severity": "CRITICAL",
+        "source_ip": "198.51.100.77",
+        "username": "root",
+        "failed_attempts": 3,
+        "window_start": "2026-07-18T06:10:00",
+        "success_time": "2026-07-18T06:10:25",
+        "window_seconds": 60,
+        "description": "3 failed authentication attempts were followed by a successful authentication from 198.51.100.77"
+    },
+    {
+        "incident_type": "Multiple Failed Logins Then Root Login",
+        "attack_type": "Possible Root Account Compromise",
+        "severity": "CRITICAL",
+        "source_ip": "198.51.100.77",
+        "username": "root",
+        "failed_attempts": 3,
+        "window_start": "2026-07-18T06:10:00",
+        "root_login_time": "2026-07-18T06:10:25",
+        "window_seconds": 60,
+        "description": "3 failed authentication attempts from 198.51.100.77 were followed by a successful root login within 60 seconds"
+    }
+]
