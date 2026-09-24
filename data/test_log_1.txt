@@ -55,3 +55,33 @@ Aug 01 10:00:22 kali sshd[2410]: Failed password for guest from 77.77.77.77 port
 
 Aug 01 10:30:00 kali sudo[2500]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
 Aug 01 10:31:00 kali sshd[2501]: Accepted password for root from 192.168.1.150 port 57000 ssh2
+
+Aug 30 10:00:00 dell-latitude sshd[2101]: Failed password for root from 192.168.1.100 port 52341 ssh2
+Aug 30 10:00:05 dell-latitude sshd[2102]: Failed password for root from 192.168.1.100 port 52342 ssh2
+Aug 30 10:00:10 dell-latitude sshd[2103]: Failed password for root from 192.168.1.100 port 52343 ssh2
+Aug 30 10:00:20 dell-latitude sshd[2104]: Accepted password for root from 192.168.1.100 port 52344 ssh2
+
+Aug 30 10:02:00 dell-latitude sshd[2110]: Failed password for invalid user admin from 10.10.10.50 port 41001 ssh2
+Aug 30 10:02:05 dell-latitude sshd[2111]: Failed password for invalid user admin from 10.10.10.50 port 41002 ssh2
+Aug 30 10:02:10 dell-latitude sshd[2112]: Failed password for invalid user test from 10.10.10.50 port 41003 ssh2
+Aug 30 10:02:20 dell-latitude sshd[2113]: Accepted password for admin from 10.10.10.50 port 41004 ssh2
+
+Aug 30 10:04:00 dell-latitude sshd[2120]: Accepted password for root from 172.16.0.25 port 43001 ssh2
+Aug 30 10:04:15 dell-latitude sudo[2125]: root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/id
+Aug 30 10:04:20 dell-latitude sudo[2126]: root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/whoami
+
+Aug 30 10:06:00 dell-latitude sshd[2130]: Accepted password for alice from 192.168.1.50 port 45001 ssh2
+Aug 30 10:06:10 dell-latitude sudo[2135]: alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+
+Aug 30 10:08:00 dell-latitude sshd[2140]: Accepted password for bob from 192.168.1.60 port 46001 ssh2
+Aug 30 10:08:10 dell-latitude sshd[2141]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Aug 30 10:08:30 dell-latitude sshd[2142]: pam_unix(sshd:session): session closed for user bob
+
+Aug 30 10:10:00 dell-latitude sshd[2150]: Failed password for alice from 192.168.1.70 port 47001 ssh2
+Aug 30 10:10:05 dell-latitude sshd[2151]: Failed password for alice from 192.168.1.71 port 47002 ssh2
+Aug 30 10:10:10 dell-latitude sshd[2152]: Failed password for alice from 192.168.1.72 port 47003 ssh2
+
+Aug 30 10:12:00 dell-latitude sshd[2160]: Failed password for admin from 192.168.1.80 port 48001 ssh2
+Aug 30 10:12:05 dell-latitude sshd[2161]: Failed password for guest from 192.168.1.80 port 48002 ssh2
+Aug 30 10:12:10 dell-latitude sshd[2162]: Failed password for test from 192.168.1.80 port 48003 ssh2
+Aug 30 10:12:15 dell-latitude sshd[2163]: Failed password for root from 192.168.1.80 port 48004 ssh2

@@ -1,5 +1,5 @@
 {
-    "log_path": "data/today_log.txt",
+    "log_path": "data/test_log_1.txt",
     "bruteforce": {
         "threshold_count": 5,
         "window_seconds": 60

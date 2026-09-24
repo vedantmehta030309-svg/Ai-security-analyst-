@@ -12,6 +12,18 @@
         "description": "3 failed authentication attempts were followed by a successful authentication from 198.51.100.77"
     },
     {
+        "incident_type": "Root Login Followed By Privileged Activity",
+        "attack_type": "Root Login Followed By Sudo",
+        "severity": "HIGH",
+        "source_ip": "192.168.1.99",
+        "username": "root",
+        "login_time": "2026-08-01T08:07:00",
+        "sudo_time": "2026-08-01T08:08:00",
+        "command": null,
+        "window_seconds": 60,
+        "description": "Successful root login from 192.168.1.99 was followed by sudo activity within 60 seconds"
+    },
+    {
         "incident_type": "Multiple Failed Logins Then Root Login",
         "attack_type": "Possible Root Account Compromise",
         "severity": "CRITICAL",
@@ -22,5 +34,16 @@
         "root_login_time": "2026-07-18T06:10:25",
         "window_seconds": 60,
         "description": "3 failed authentication attempts from 198.51.100.77 were followed by a successful root login within 60 seconds"
+    },
+    {
+        "incident_type": "Authentication Then Suspicious Sudo",
+        "attack_type": "Privilege Escalation",
+        "severity": "HIGH",
+        "username": "root",
+        "source_ip": "192.168.1.99",
+        "authentication_time": "2026-08-01T08:07:00",
+        "sudo_time": "2026-08-01T08:08:00",
+        "window_seconds": 60,
+        "description": "Successful authentication for 'root' was followed by suspicious sudo activity within 60 seconds"
     }
 ]

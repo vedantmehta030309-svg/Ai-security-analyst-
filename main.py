@@ -9,6 +9,7 @@ from detector import (
 from report import export_json , print_report
 from ssh_auth import enrich_ssh_events
 from correlation import run_correlations
+from risk_score import score_alerts
 
 logs = parser()
 enrich_ssh_events(logs)
@@ -29,6 +30,7 @@ for detector in detectors:
 correlation_incidents = run_correlations(logs)
 
 alerts.extend(correlation_incidents)
+score_alerts(alerts)
 
 print_report(logs, alerts)
 export_json(alerts, "alerts.json")
