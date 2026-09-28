@@ -3317,9 +3317,9 @@
         "severity": "HIGH",
         "source_ip": "192.168.1.80",
         "targeted_accounts": [
+            "test",
             "guest",
-            "admin",
-            "test"
+            "admin"
         ],
         "account_count": 3,
         "attempts": 3,
@@ -3378,9 +3378,9 @@
         "severity": "HIGH",
         "source_ip": "192.168.1.80",
         "targeted_accounts": [
+            "test",
             "guest",
-            "admin",
-            "test"
+            "admin"
         ],
         "account_count": 3,
         "attempts": 3,
