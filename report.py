@@ -58,15 +58,51 @@ def print_alerts(alerts):
         table.add_column()
 
         for key, value in alert.items():
+            if key in ("ai_analysis", "ml_features"):
+                continue
             table.add_row(key, str(value))
 
         console.print(table)
 
-def print_report(logs, alerts):
+def print_ai_report(ai_report):
+    if not ai_report:
+        return
+
+    console.print()
+    console.print(Rule("[bold cyan]AI Security Analyst"))
+    console.print(ai_report.get("executive_summary", ""))
+    console.print(f"Mode: {ai_report.get('analyst_mode', 'offline')}")
+    if ai_report.get("note"):
+        console.print(ai_report["note"])
+
+    for number, item in enumerate(ai_report.get("incident_analyses") or [], start=1):
+        analysis = item.get("ai_analysis") or {}
+        table = Table(
+            title=f"AI Analysis #{number}",
+            show_header=False,
+            expand=False
+        )
+        table.add_column(style="cyan", width=22)
+        table.add_column()
+        table.add_row("incident", str(item.get("incident_type") or item.get("attack_type")))
+        table.add_row("risk_score", str(item.get("risk_score")))
+        table.add_row("risk_level", str(item.get("risk_level")))
+        table.add_row("ml_is_anomaly", str(item.get("ml_is_anomaly")))
+        table.add_row("summary", str(analysis.get("summary", "")))
+        table.add_row("why_suspicious", str(analysis.get("why_suspicious", "")))
+        table.add_row("attack_pattern", str(analysis.get("attack_pattern", "")))
+        table.add_row("risk_explanation", str(analysis.get("risk_explanation", "")))
+        steps = analysis.get("investigation_steps") or []
+        table.add_row("investigation", " | ".join(str(step) for step in steps))
+        console.print(table)
+
+
+def print_report(logs, alerts, ai_report=None):
 
     print_summary(logs, alerts)
 
     print_alerts(alerts)
+    print_ai_report(ai_report)
 
 
 

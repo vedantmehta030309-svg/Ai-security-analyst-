@@ -17,7 +17,7 @@ LOG_PATH= Path(CONFIG["log_path"])
 LOG_PATTERN = re.compile(r"""
                                 (?P<timestamp>\w{3}\s\d\d?\s\d{2}:\d{2}:\d{2})   # Timestamp
                                 \s
-                                (?P<hostname>\w+)                               # Hostname
+                                (?P<hostname>[\w.-]+)                           # Hostname
                                 \s
                                 (?P<process>[\w-]+)                             # Process
                                 \[

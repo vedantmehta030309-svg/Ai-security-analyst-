@@ -31,7 +31,7 @@ ACCEPTED_PUBLICKEY = re.compile(
 )
 
 SESSION_OPENED = re.compile(
-    r"^pam_unix\(sshd:session\): session opened for user (?P<username>\S+)"
+    r"^pam_unix\(sshd:session\): session opened for user (?P<username>[^\s(]+)(?:\(uid=\d+\))?"
 )
 
 SESSION_CLOSED = re.compile(

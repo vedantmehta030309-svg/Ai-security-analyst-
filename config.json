@@ -7,5 +7,12 @@
     "correlation" : {
         "threshold_count" : 3,
         "windows_seconds" : 60
+    },
+    "ai_analyst": {
+        "enabled": true,
+        "mode": "offline"
+    },
+    "ml_anomaly": {
+        "enabled": true
     }
 }

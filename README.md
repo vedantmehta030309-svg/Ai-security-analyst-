@@ -1,40 +1,46 @@
 # AI Security Analyst
 
-## Vision
+College prototype: parse Linux journal/auth-style logs, detect suspicious SSH activity, correlate attack sequences, score risk, optionally flag anomalies, then explain incidents in human language.
 
-Build an AI-powered Security Operations Center (SOC) assistant capable of analyzing logs, detecting threats, correlating events, and explaining attacks using AI.
+## Pipeline
 
----
+Logs → parser → SSH enrichment → detectors → correlation → **risk_score.py** → ML prototype (optional) → AI analyst → report / dashboard
 
-## MVP
+`risk_score.py` is the only numerical risk engine. AI/ML do not replace detection, correlation, or scoring.
 
-- Read log files
-- Parse logs
-- Detect suspicious events
-- Generate AI explanations
+## How to run
 
----
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
 
-## Future Versions
+python main.py
+python -m unittest discover -s tests
+streamlit run dashboard.py
+```
 
-### V2
+`config.json` points at `data/test_log_1.txt` by default.
 
-- Support multiple log formats
-- AI summarization
-- Web dashboard
+Disable extras without touching the core pipeline:
 
-### V3
+- `"ai_analyst": { "enabled": false }`
+- `"ml_anomaly": { "enabled": false }`
 
-- Threat Intelligence integration
-- MITRE ATT&CK mapping
-- Detection rules
+Optional LLM explanations (otherwise offline templates are used):
 
-### V4
+- set `AI_ANALYST_API_KEY` (or `OPENAI_API_KEY`)
+- set `"mode": "llm"` under `ai_analyst` in `config.json`
+- optional: `AI_ANALYST_BASE_URL`, `AI_ANALYST_MODEL`
 
-- Real-time monitoring
-- SIEM integration
-- Multi-agent AI architecture
+Do not put API keys in source files.
 
-### Long-Term Vision
+## Outputs
 
-An intelligent SOC analyst capable of assisting security teams in real-world environments.
+- `alerts.json` — detector alerts + correlated incidents + risk (+ ML/AI fields when enabled)
+- `correlation_incidents.json` — correlation engine output
+- `ai_analysis.json` — human-readable incident explanations
+
+## ML note
+
+The Isolation Forest module is a **prototype** trained on synthetic “typical auth” baselines because the sample logs are small and attack-heavy. It is for demonstration and viva explanation, not a production accuracy claim.

@@ -14,7 +14,28 @@
         "source_port": 40001,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:20:00",
@@ -31,7 +52,29 @@
         "source_port": 51001,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:20:04",
@@ -48,7 +91,29 @@
         "source_port": 51002,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:20:08",
@@ -65,7 +130,29 @@
         "source_port": 51003,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:20:12",
@@ -82,7 +169,29 @@
         "source_port": 51004,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:20:16",
@@ -99,7 +208,29 @@
         "source_port": 51005,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:30:00",
@@ -116,7 +247,28 @@
         "source_port": 52001,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:30:50",
@@ -133,7 +285,28 @@
         "source_port": 52002,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:30:55",
@@ -150,7 +323,28 @@
         "source_port": 52003,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:31:00",
@@ -167,7 +361,28 @@
         "source_port": 52004,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:31:05",
@@ -184,7 +399,28 @@
         "source_port": 52005,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:31:10",
@@ -201,7 +437,28 @@
         "source_port": 52006,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 09:00:00",
@@ -218,7 +475,28 @@
         "source_port": 53001,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 11:00:00",
@@ -235,7 +513,28 @@
         "source_port": 53002,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 13:00:00",
@@ -252,7 +551,28 @@
         "source_port": 53003,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 15:00:00",
@@ -269,7 +589,28 @@
         "source_port": 53004,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 17:00:00",
@@ -286,7 +627,28 @@
         "source_port": 53005,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 09:40:00",
@@ -303,7 +665,28 @@
         "source_port": 54001,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 09:40:10",
@@ -320,7 +703,28 @@
         "source_port": 54002,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 09:40:20",
@@ -337,7 +741,28 @@
         "source_port": 54003,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 09:40:30",
@@ -354,7 +779,28 @@
         "source_port": 54004,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Jul 18 06:10:00",
@@ -371,7 +817,29 @@
         "source_port": 51001,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Jul 18 06:10:08",
@@ -388,7 +856,29 @@
         "source_port": 51002,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Jul 18 06:10:16",
@@ -405,7 +895,29 @@
         "source_port": 51003,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 10:00:00",
@@ -422,7 +934,28 @@
         "source_port": 55001,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 10:00:02",
@@ -439,7 +972,28 @@
         "source_port": 56001,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 10:00:05",
@@ -456,7 +1010,28 @@
         "source_port": 55002,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 10:00:07",
@@ -473,7 +1048,28 @@
         "source_port": 56002,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 10:00:10",
@@ -490,7 +1086,28 @@
         "source_port": 55003,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 10:00:12",
@@ -507,7 +1124,28 @@
         "source_port": 56003,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 10:00:15",
@@ -524,7 +1162,28 @@
         "source_port": 55004,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 10:00:17",
@@ -541,7 +1200,28 @@
         "source_port": 56004,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 10:00:20",
@@ -558,7 +1238,28 @@
         "source_port": 55005,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 10:00:22",
@@ -575,7 +1276,526 @@
         "source_port": 56005,
         "invalid_user": false,
         "severity": "LOW",
-        "attack_type": "Failed Login"
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:00:00",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2101,
+        "message": "Failed password for root from 192.168.1.100 port 52341 ssh2",
+        "parsed_time": "2026-08-30T10:00:00",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "root",
+        "source_ip": "192.168.1.100",
+        "source_port": 52341,
+        "invalid_user": false,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:00:05",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2102,
+        "message": "Failed password for root from 192.168.1.100 port 52342 ssh2",
+        "parsed_time": "2026-08-30T10:00:05",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "root",
+        "source_ip": "192.168.1.100",
+        "source_port": 52342,
+        "invalid_user": false,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:00:10",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2103,
+        "message": "Failed password for root from 192.168.1.100 port 52343 ssh2",
+        "parsed_time": "2026-08-30T10:00:10",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "root",
+        "source_ip": "192.168.1.100",
+        "source_port": 52343,
+        "invalid_user": false,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:02:00",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2110,
+        "message": "Failed password for invalid user admin from 10.10.10.50 port 41001 ssh2",
+        "parsed_time": "2026-08-30T10:02:00",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "admin",
+        "source_ip": "10.10.10.50",
+        "source_port": 41001,
+        "invalid_user": true,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:02:05",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2111,
+        "message": "Failed password for invalid user admin from 10.10.10.50 port 41002 ssh2",
+        "parsed_time": "2026-08-30T10:02:05",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "admin",
+        "source_ip": "10.10.10.50",
+        "source_port": 41002,
+        "invalid_user": true,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:02:10",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2112,
+        "message": "Failed password for invalid user test from 10.10.10.50 port 41003 ssh2",
+        "parsed_time": "2026-08-30T10:02:10",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "test",
+        "source_ip": "10.10.10.50",
+        "source_port": 41003,
+        "invalid_user": true,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:10:00",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2150,
+        "message": "Failed password for alice from 192.168.1.70 port 47001 ssh2",
+        "parsed_time": "2026-08-30T10:10:00",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "alice",
+        "source_ip": "192.168.1.70",
+        "source_port": 47001,
+        "invalid_user": false,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:10:05",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2151,
+        "message": "Failed password for alice from 192.168.1.71 port 47002 ssh2",
+        "parsed_time": "2026-08-30T10:10:05",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "alice",
+        "source_ip": "192.168.1.71",
+        "source_port": 47002,
+        "invalid_user": false,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:10:10",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2152,
+        "message": "Failed password for alice from 192.168.1.72 port 47003 ssh2",
+        "parsed_time": "2026-08-30T10:10:10",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "alice",
+        "source_ip": "192.168.1.72",
+        "source_port": 47003,
+        "invalid_user": false,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:12:00",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2160,
+        "message": "Failed password for admin from 192.168.1.80 port 48001 ssh2",
+        "parsed_time": "2026-08-30T10:12:00",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "admin",
+        "source_ip": "192.168.1.80",
+        "source_port": 48001,
+        "invalid_user": false,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:12:05",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2161,
+        "message": "Failed password for guest from 192.168.1.80 port 48002 ssh2",
+        "parsed_time": "2026-08-30T10:12:05",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "guest",
+        "source_ip": "192.168.1.80",
+        "source_port": 48002,
+        "invalid_user": false,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:12:10",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2162,
+        "message": "Failed password for test from 192.168.1.80 port 48003 ssh2",
+        "parsed_time": "2026-08-30T10:12:10",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "test",
+        "source_ip": "192.168.1.80",
+        "source_port": 48003,
+        "invalid_user": false,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "LOW severity"
+        ],
+        "ml_anomaly_score": -0.2338,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 20,
+            "severity_rank": 1
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:12:15",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2163,
+        "message": "Failed password for root from 192.168.1.80 port 48004 ssh2",
+        "parsed_time": "2026-08-30T10:12:15",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "failed",
+        "username": "root",
+        "source_ip": "192.168.1.80",
+        "source_port": 48004,
+        "invalid_user": false,
+        "severity": "LOW",
+        "attack_type": "Failed Login",
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "LOW severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0819,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 40,
+            "severity_rank": 1
+        }
     },
     {
         "timestamp": "Aug 01 08:06:00",
@@ -593,7 +1813,28 @@
         "invalid_user": false,
         "severity": "INFO",
         "attack_type": "Successful Login",
-        "ip": "192.168.1.20"
+        "ip": "192.168.1.20",
+        "risk_score": 5,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "INFO severity"
+        ],
+        "ml_anomaly_score": -0.1323,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 5,
+            "severity_rank": 0
+        }
     },
     {
         "timestamp": "Aug 01 08:07:00",
@@ -611,7 +1852,29 @@
         "invalid_user": false,
         "severity": "INFO",
         "attack_type": "Successful Login",
-        "ip": "192.168.1.99"
+        "ip": "192.168.1.99",
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "INFO severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0062,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 25,
+            "severity_rank": 0
+        }
     },
     {
         "timestamp": "Jul 18 06:10:25",
@@ -629,7 +1892,29 @@
         "invalid_user": false,
         "severity": "INFO",
         "attack_type": "Successful Login",
-        "ip": "198.51.100.77"
+        "ip": "198.51.100.77",
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "INFO severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0062,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 25,
+            "severity_rank": 0
+        }
     },
     {
         "timestamp": "Aug 01 10:31:00",
@@ -647,7 +1932,226 @@
         "invalid_user": false,
         "severity": "INFO",
         "attack_type": "Successful Login",
-        "ip": "192.168.1.150"
+        "ip": "192.168.1.150",
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "INFO severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0062,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 25,
+            "severity_rank": 0
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:00:20",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2104,
+        "message": "Accepted password for root from 192.168.1.100 port 52344 ssh2",
+        "parsed_time": "2026-08-30T10:00:20",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "success",
+        "username": "root",
+        "source_ip": "192.168.1.100",
+        "source_port": 52344,
+        "invalid_user": false,
+        "severity": "INFO",
+        "attack_type": "Successful Login",
+        "ip": "192.168.1.100",
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "INFO severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0062,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 25,
+            "severity_rank": 0
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:02:20",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2113,
+        "message": "Accepted password for admin from 10.10.10.50 port 41004 ssh2",
+        "parsed_time": "2026-08-30T10:02:20",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "success",
+        "username": "admin",
+        "source_ip": "10.10.10.50",
+        "source_port": 41004,
+        "invalid_user": false,
+        "severity": "INFO",
+        "attack_type": "Successful Login",
+        "ip": "10.10.10.50",
+        "risk_score": 5,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "INFO severity"
+        ],
+        "ml_anomaly_score": -0.1323,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 5,
+            "severity_rank": 0
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:04:00",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2120,
+        "message": "Accepted password for root from 172.16.0.25 port 43001 ssh2",
+        "parsed_time": "2026-08-30T10:04:00",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "success",
+        "username": "root",
+        "source_ip": "172.16.0.25",
+        "source_port": 43001,
+        "invalid_user": false,
+        "severity": "INFO",
+        "attack_type": "Successful Login",
+        "ip": "172.16.0.25",
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "INFO severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0062,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 25,
+            "severity_rank": 0
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:06:00",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2130,
+        "message": "Accepted password for alice from 192.168.1.50 port 45001 ssh2",
+        "parsed_time": "2026-08-30T10:06:00",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "success",
+        "username": "alice",
+        "source_ip": "192.168.1.50",
+        "source_port": 45001,
+        "invalid_user": false,
+        "severity": "INFO",
+        "attack_type": "Successful Login",
+        "ip": "192.168.1.50",
+        "risk_score": 5,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "INFO severity"
+        ],
+        "ml_anomaly_score": -0.1323,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 5,
+            "severity_rank": 0
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:08:00",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2140,
+        "message": "Accepted password for bob from 192.168.1.60 port 46001 ssh2",
+        "parsed_time": "2026-08-30T10:08:00",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "success",
+        "username": "bob",
+        "source_ip": "192.168.1.60",
+        "source_port": 46001,
+        "invalid_user": false,
+        "severity": "INFO",
+        "attack_type": "Successful Login",
+        "ip": "192.168.1.60",
+        "risk_score": 5,
+        "risk_level": "LOW",
+        "risk_factors": [
+            "INFO severity"
+        ],
+        "ml_anomaly_score": -0.1323,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 5,
+            "severity_rank": 0
+        }
     },
     {
         "severity": "HIGH",
@@ -655,7 +2159,47 @@
         "ip": "45.33.32.10",
         "attempts": 5,
         "window_start": "2026-08-01T08:20:00",
-        "window_end": "2026-08-01T08:20:16"
+        "window_end": "2026-08-01T08:20:16",
+        "risk_score": 65,
+        "risk_level": "HIGH",
+        "risk_factors": [
+            "HIGH severity"
+        ],
+        "ml_anomaly_score": -0.0624,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 5,
+            "risk_score": 65,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Bruteforce Attack involving 'unknown user' from 45.33.32.10. Risk 65/100 (HIGH). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity.",
+            "evidence": [
+                "IP: 45.33.32.10",
+                "Window start: 2026-08-01T08:20:00",
+                "Attack type: Bruteforce Attack",
+                "Risk factor: HIGH severity"
+            ],
+            "attack_pattern": "Many failed passwords from one IP occurred inside a short time window.",
+            "investigation_steps": [
+                "Confirm whether login activity for '<account>' from 45.33.32.10 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 65/100 (HIGH). That score is rule-based and was increased by: HIGH severity. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     },
     {
         "severity": "HIGH",
@@ -663,7 +2207,47 @@
         "ip": "45.33.32.11",
         "attempts": 5,
         "window_start": "2026-08-01T08:30:50",
-        "window_end": "2026-08-01T08:31:10"
+        "window_end": "2026-08-01T08:31:10",
+        "risk_score": 65,
+        "risk_level": "HIGH",
+        "risk_factors": [
+            "HIGH severity"
+        ],
+        "ml_anomaly_score": -0.0624,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 5,
+            "risk_score": 65,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Bruteforce Attack involving 'unknown user' from 45.33.32.11. Risk 65/100 (HIGH). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity.",
+            "evidence": [
+                "IP: 45.33.32.11",
+                "Window start: 2026-08-01T08:30:50",
+                "Attack type: Bruteforce Attack",
+                "Risk factor: HIGH severity"
+            ],
+            "attack_pattern": "Many failed passwords from one IP occurred inside a short time window.",
+            "investigation_steps": [
+                "Confirm whether login activity for '<account>' from 45.33.32.11 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 65/100 (HIGH). That score is rule-based and was increased by: HIGH severity. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     },
     {
         "severity": "HIGH",
@@ -671,7 +2255,47 @@
         "ip": "66.66.66.66",
         "attempts": 5,
         "window_start": "2026-08-01T10:00:00",
-        "window_end": "2026-08-01T10:00:20"
+        "window_end": "2026-08-01T10:00:20",
+        "risk_score": 65,
+        "risk_level": "HIGH",
+        "risk_factors": [
+            "HIGH severity"
+        ],
+        "ml_anomaly_score": -0.0624,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 5,
+            "risk_score": 65,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Bruteforce Attack involving 'unknown user' from 66.66.66.66. Risk 65/100 (HIGH). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity.",
+            "evidence": [
+                "IP: 66.66.66.66",
+                "Window start: 2026-08-01T10:00:00",
+                "Attack type: Bruteforce Attack",
+                "Risk factor: HIGH severity"
+            ],
+            "attack_pattern": "Many failed passwords from one IP occurred inside a short time window.",
+            "investigation_steps": [
+                "Confirm whether login activity for '<account>' from 66.66.66.66 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 65/100 (HIGH). That score is rule-based and was increased by: HIGH severity. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     },
     {
         "severity": "HIGH",
@@ -679,7 +2303,47 @@
         "ip": "77.77.77.77",
         "attempts": 5,
         "window_start": "2026-08-01T10:00:02",
-        "window_end": "2026-08-01T10:00:22"
+        "window_end": "2026-08-01T10:00:22",
+        "risk_score": 65,
+        "risk_level": "HIGH",
+        "risk_factors": [
+            "HIGH severity"
+        ],
+        "ml_anomaly_score": -0.0624,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 5,
+            "risk_score": 65,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Bruteforce Attack involving 'unknown user' from 77.77.77.77. Risk 65/100 (HIGH). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity.",
+            "evidence": [
+                "IP: 77.77.77.77",
+                "Window start: 2026-08-01T10:00:02",
+                "Attack type: Bruteforce Attack",
+                "Risk factor: HIGH severity"
+            ],
+            "attack_pattern": "Many failed passwords from one IP occurred inside a short time window.",
+            "investigation_steps": [
+                "Confirm whether login activity for '<account>' from 77.77.77.77 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 65/100 (HIGH). That score is rule-based and was increased by: HIGH severity. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     },
     {
         "timestamp": "Aug 01 08:07:00",
@@ -697,7 +2361,52 @@
         "invalid_user": false,
         "severity": "HIGH",
         "attack_type": "Root Login",
-        "ip": "192.168.1.99"
+        "ip": "192.168.1.99",
+        "risk_score": 85,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0025,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 85,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Root Login involving 'root' from 192.168.1.99. Risk 85/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved.",
+            "evidence": [
+                "Source IP: 192.168.1.99",
+                "IP: 192.168.1.99",
+                "Username: root",
+                "Message: Accepted password for root from 192.168.1.99 port 40020 ssh2",
+                "Attack type: Root Login",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved"
+            ],
+            "attack_pattern": "A successful authentication as root was recorded. Root logins are high-value events.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 192.168.1.99 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 85/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     },
     {
         "timestamp": "Jul 18 06:10:25",
@@ -715,7 +2424,52 @@
         "invalid_user": false,
         "severity": "HIGH",
         "attack_type": "Root Login",
-        "ip": "198.51.100.77"
+        "ip": "198.51.100.77",
+        "risk_score": 85,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0025,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 85,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Root Login involving 'root' from 198.51.100.77. Risk 85/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved.",
+            "evidence": [
+                "Source IP: 198.51.100.77",
+                "IP: 198.51.100.77",
+                "Username: root",
+                "Message: Accepted password for root from 198.51.100.77 port 51004 ssh2",
+                "Attack type: Root Login",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved"
+            ],
+            "attack_pattern": "A successful authentication as root was recorded. Root logins are high-value events.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 198.51.100.77 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 85/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     },
     {
         "timestamp": "Aug 01 10:31:00",
@@ -733,7 +2487,178 @@
         "invalid_user": false,
         "severity": "HIGH",
         "attack_type": "Root Login",
-        "ip": "192.168.1.150"
+        "ip": "192.168.1.150",
+        "risk_score": 85,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0025,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 85,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Root Login involving 'root' from 192.168.1.150. Risk 85/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved.",
+            "evidence": [
+                "Source IP: 192.168.1.150",
+                "IP: 192.168.1.150",
+                "Username: root",
+                "Message: Accepted password for root from 192.168.1.150 port 57000 ssh2",
+                "Attack type: Root Login",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved"
+            ],
+            "attack_pattern": "A successful authentication as root was recorded. Root logins are high-value events.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 192.168.1.150 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 85/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:00:20",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2104,
+        "message": "Accepted password for root from 192.168.1.100 port 52344 ssh2",
+        "parsed_time": "2026-08-30T10:00:20",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "success",
+        "username": "root",
+        "source_ip": "192.168.1.100",
+        "source_port": 52344,
+        "invalid_user": false,
+        "severity": "HIGH",
+        "attack_type": "Root Login",
+        "ip": "192.168.1.100",
+        "risk_score": 85,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0025,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 85,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Root Login involving 'root' from 192.168.1.100. Risk 85/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved.",
+            "evidence": [
+                "Source IP: 192.168.1.100",
+                "IP: 192.168.1.100",
+                "Username: root",
+                "Message: Accepted password for root from 192.168.1.100 port 52344 ssh2",
+                "Attack type: Root Login",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved"
+            ],
+            "attack_pattern": "A successful authentication as root was recorded. Root logins are high-value events.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 192.168.1.100 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 85/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:04:00",
+        "hostname": "dell-latitude",
+        "process": "sshd",
+        "pid": 2120,
+        "message": "Accepted password for root from 172.16.0.25 port 43001 ssh2",
+        "parsed_time": "2026-08-30T10:04:00",
+        "event_type": "authentication",
+        "auth_method": "password",
+        "result": "success",
+        "username": "root",
+        "source_ip": "172.16.0.25",
+        "source_port": 43001,
+        "invalid_user": false,
+        "severity": "HIGH",
+        "attack_type": "Root Login",
+        "ip": "172.16.0.25",
+        "risk_score": 85,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved"
+        ],
+        "ml_anomaly_score": -0.0025,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 0,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 85,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Root Login involving 'root' from 172.16.0.25. Risk 85/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved.",
+            "evidence": [
+                "Source IP: 172.16.0.25",
+                "IP: 172.16.0.25",
+                "Username: root",
+                "Message: Accepted password for root from 172.16.0.25 port 43001 ssh2",
+                "Attack type: Root Login",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved"
+            ],
+            "attack_pattern": "A successful authentication as root was recorded. Root logins are high-value events.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 172.16.0.25 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 85/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     },
     {
         "timestamp": "Aug 01 08:08:00",
@@ -745,7 +2670,29 @@
         "severity": "MEDIUM",
         "attack_type": "Sudo Command",
         "username": "kali",
-        "command": "/usr/bin/apt install nmap"
+        "command": "/usr/bin/apt install nmap",
+        "risk_score": 55,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "MEDIUM severity",
+            "privileged activity detected"
+        ],
+        "ml_anomaly_score": 0.0064,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 1,
+            "correlated_incident": 0,
+            "source_ip_count": 0,
+            "event_count": 1,
+            "risk_score": 55,
+            "severity_rank": 2
+        }
     },
     {
         "timestamp": "Aug 01 10:30:00",
@@ -757,7 +2704,181 @@
         "severity": "MEDIUM",
         "attack_type": "Sudo Command",
         "username": "kali",
-        "command": "/usr/bin/systemctl restart ssh"
+        "command": "/usr/bin/systemctl restart ssh",
+        "risk_score": 55,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "MEDIUM severity",
+            "privileged activity detected"
+        ],
+        "ml_anomaly_score": 0.0064,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 1,
+            "correlated_incident": 0,
+            "source_ip_count": 0,
+            "event_count": 1,
+            "risk_score": 55,
+            "severity_rank": 2
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:04:15",
+        "hostname": "dell-latitude",
+        "process": "sudo",
+        "pid": 2125,
+        "message": "root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/id",
+        "parsed_time": "2026-08-30T10:04:15",
+        "severity": "MEDIUM",
+        "attack_type": "Sudo Command",
+        "username": "root",
+        "command": "/usr/bin/id",
+        "risk_score": 75,
+        "risk_level": "HIGH",
+        "risk_factors": [
+            "MEDIUM severity",
+            "root account involved",
+            "privileged activity detected"
+        ],
+        "ml_anomaly_score": 0.0795,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 1,
+            "correlated_incident": 0,
+            "source_ip_count": 0,
+            "event_count": 1,
+            "risk_score": 75,
+            "severity_rank": 2
+        },
+        "ai_analysis": {
+            "summary": "Sudo Command involving 'root' from unknown IP. Risk 75/100 (HIGH). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: MEDIUM severity; root account involved; privileged activity detected.",
+            "evidence": [
+                "Username: root",
+                "Command: /usr/bin/id",
+                "Message: root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/id",
+                "Attack type: Sudo Command",
+                "Risk factor: MEDIUM severity",
+                "Risk factor: root account involved",
+                "Risk factor: privileged activity detected"
+            ],
+            "attack_pattern": "A privileged command was executed via sudo.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from <source IP> was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Validate the sudo command `/usr/bin/id` against change-control.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 75/100 (HIGH). That score is rule-based and was increased by: MEDIUM severity, root account involved, privileged activity detected. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:04:20",
+        "hostname": "dell-latitude",
+        "process": "sudo",
+        "pid": 2126,
+        "message": "root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/whoami",
+        "parsed_time": "2026-08-30T10:04:20",
+        "severity": "MEDIUM",
+        "attack_type": "Sudo Command",
+        "username": "root",
+        "command": "/usr/bin/whoami",
+        "risk_score": 75,
+        "risk_level": "HIGH",
+        "risk_factors": [
+            "MEDIUM severity",
+            "root account involved",
+            "privileged activity detected"
+        ],
+        "ml_anomaly_score": 0.0795,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 1,
+            "correlated_incident": 0,
+            "source_ip_count": 0,
+            "event_count": 1,
+            "risk_score": 75,
+            "severity_rank": 2
+        },
+        "ai_analysis": {
+            "summary": "Sudo Command involving 'root' from unknown IP. Risk 75/100 (HIGH). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: MEDIUM severity; root account involved; privileged activity detected.",
+            "evidence": [
+                "Username: root",
+                "Command: /usr/bin/whoami",
+                "Message: root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/whoami",
+                "Attack type: Sudo Command",
+                "Risk factor: MEDIUM severity",
+                "Risk factor: root account involved",
+                "Risk factor: privileged activity detected"
+            ],
+            "attack_pattern": "A privileged command was executed via sudo.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from <source IP> was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Validate the sudo command `/usr/bin/whoami` against change-control.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 75/100 (HIGH). That score is rule-based and was increased by: MEDIUM severity, root account involved, privileged activity detected. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "timestamp": "Aug 30 10:06:10",
+        "hostname": "dell-latitude",
+        "process": "sudo",
+        "pid": 2135,
+        "message": "alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update",
+        "parsed_time": "2026-08-30T10:06:10",
+        "severity": "MEDIUM",
+        "attack_type": "Sudo Command",
+        "username": "alice",
+        "command": "/usr/bin/apt update",
+        "risk_score": 55,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "MEDIUM severity",
+            "privileged activity detected"
+        ],
+        "ml_anomaly_score": 0.0064,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 1,
+            "correlated_incident": 0,
+            "source_ip_count": 0,
+            "event_count": 1,
+            "risk_score": 55,
+            "severity_rank": 2
+        }
     },
     {
         "incident_type": "Possible Account Compromise",
@@ -769,7 +2890,249 @@
         "window_start": "2026-07-18T06:10:00",
         "success_time": "2026-07-18T06:10:25",
         "window_seconds": 60,
-        "description": "3 failed authentication attempts were followed by a successful authentication from 198.51.100.77"
+        "description": "3 failed authentication attempts were followed by a successful authentication from 198.51.100.77",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "CRITICAL severity",
+            "multiple failed auth attempts",
+            "successful auth after failures",
+            "root account involved",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.1138,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 3,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 1,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 3,
+            "risk_score": 100,
+            "severity_rank": 4
+        },
+        "ai_analysis": {
+            "summary": "Possible Account Compromise involving 'root' from 198.51.100.77. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: CRITICAL severity; multiple failed auth attempts; successful auth after failures; root account involved; correlated security incident.",
+            "evidence": [
+                "3 failed authentication attempts were followed by a successful authentication from 198.51.100.77",
+                "Source IP: 198.51.100.77",
+                "Username: root",
+                "Failed attempts: 3",
+                "Success time: 2026-07-18T06:10:25",
+                "Window start: 2026-07-18T06:10:00",
+                "Attack type: Possible Account Compromise",
+                "Incident type: Possible Account Compromise",
+                "Risk factor: CRITICAL severity",
+                "Risk factor: multiple failed auth attempts",
+                "Risk factor: successful auth after failures",
+                "Risk factor: root account involved"
+            ],
+            "attack_pattern": "Credential-guessing followed by a successful login from the same source. This pattern often indicates a brute-force attempt that eventually succeeded.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 198.51.100.77 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: CRITICAL severity, multiple failed auth attempts, successful auth after failures, root account involved, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Possible Account Compromise",
+        "attack_type": "Possible Account Compromise",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.1.100",
+        "username": "root",
+        "failed_attempts": 3,
+        "window_start": "2026-08-30T10:00:00",
+        "success_time": "2026-08-30T10:00:20",
+        "window_seconds": 60,
+        "description": "3 failed authentication attempts were followed by a successful authentication from 192.168.1.100",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "CRITICAL severity",
+            "multiple failed auth attempts",
+            "successful auth after failures",
+            "root account involved",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.1138,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 3,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 1,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 3,
+            "risk_score": 100,
+            "severity_rank": 4
+        },
+        "ai_analysis": {
+            "summary": "Possible Account Compromise involving 'root' from 192.168.1.100. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: CRITICAL severity; multiple failed auth attempts; successful auth after failures; root account involved; correlated security incident.",
+            "evidence": [
+                "3 failed authentication attempts were followed by a successful authentication from 192.168.1.100",
+                "Source IP: 192.168.1.100",
+                "Username: root",
+                "Failed attempts: 3",
+                "Success time: 2026-08-30T10:00:20",
+                "Window start: 2026-08-30T10:00:00",
+                "Attack type: Possible Account Compromise",
+                "Incident type: Possible Account Compromise",
+                "Risk factor: CRITICAL severity",
+                "Risk factor: multiple failed auth attempts",
+                "Risk factor: successful auth after failures",
+                "Risk factor: root account involved"
+            ],
+            "attack_pattern": "Credential-guessing followed by a successful login from the same source. This pattern often indicates a brute-force attempt that eventually succeeded.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 192.168.1.100 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: CRITICAL severity, multiple failed auth attempts, successful auth after failures, root account involved, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Possible Account Compromise",
+        "attack_type": "Possible Account Compromise",
+        "severity": "CRITICAL",
+        "source_ip": "10.10.10.50",
+        "username": "admin",
+        "failed_attempts": 3,
+        "window_start": "2026-08-30T10:02:00",
+        "success_time": "2026-08-30T10:02:20",
+        "window_seconds": 60,
+        "description": "3 failed authentication attempts were followed by a successful authentication from 10.10.10.50",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "CRITICAL severity",
+            "multiple failed auth attempts",
+            "successful auth after failures",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.0742,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 3,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 1,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 3,
+            "risk_score": 100,
+            "severity_rank": 4
+        },
+        "ai_analysis": {
+            "summary": "Possible Account Compromise involving 'admin' from 10.10.10.50. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: CRITICAL severity; multiple failed auth attempts; successful auth after failures; correlated security incident.",
+            "evidence": [
+                "3 failed authentication attempts were followed by a successful authentication from 10.10.10.50",
+                "Source IP: 10.10.10.50",
+                "Username: admin",
+                "Failed attempts: 3",
+                "Success time: 2026-08-30T10:02:20",
+                "Window start: 2026-08-30T10:02:00",
+                "Attack type: Possible Account Compromise",
+                "Incident type: Possible Account Compromise",
+                "Risk factor: CRITICAL severity",
+                "Risk factor: multiple failed auth attempts",
+                "Risk factor: successful auth after failures",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "Credential-guessing followed by a successful login from the same source. This pattern often indicates a brute-force attempt that eventually succeeded.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'admin' from 10.10.10.50 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: CRITICAL severity, multiple failed auth attempts, successful auth after failures, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Invalid User Attack Followed By Success",
+        "severity": "CRITICAL",
+        "source_ip": "10.10.10.50",
+        "username": "admin",
+        "invalid_user_attempts": 3,
+        "window_start": "2026-08-30T10:02:00",
+        "success_time": "2026-08-30T10:02:20",
+        "window_seconds": 60,
+        "description": "3 invalid-user authentication attempts were followed by a successful authentication from 10.10.10.50",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "CRITICAL severity",
+            "successful auth after failures",
+            "invalid user auth activity",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.0666,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 3,
+            "success_after_failures": 1,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 3,
+            "risk_score": 100,
+            "severity_rank": 4
+        },
+        "ai_analysis": {
+            "summary": "Invalid User Attack Followed By Success involving 'admin' from 10.10.10.50. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: CRITICAL severity; successful auth after failures; invalid user auth activity; correlated security incident.",
+            "evidence": [
+                "3 invalid-user authentication attempts were followed by a successful authentication from 10.10.10.50",
+                "Source IP: 10.10.10.50",
+                "Username: admin",
+                "Invalid-user attempts: 3",
+                "Success time: 2026-08-30T10:02:20",
+                "Window start: 2026-08-30T10:02:00",
+                "Incident type: Invalid User Attack Followed By Success",
+                "Risk factor: CRITICAL severity",
+                "Risk factor: successful auth after failures",
+                "Risk factor: invalid user auth activity",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "Invalid-user probes were followed by a successful authentication from the same IP, suggesting account discovery then a valid credential.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'admin' from 10.10.10.50 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: CRITICAL severity, successful auth after failures, invalid user auth activity, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     },
     {
         "incident_type": "Root Login Followed By Privileged Activity",
@@ -781,7 +3144,294 @@
         "sudo_time": "2026-08-01T08:08:00",
         "command": null,
         "window_seconds": 60,
-        "description": "Successful root login from 192.168.1.99 was followed by sudo activity within 60 seconds"
+        "description": "Successful root login from 192.168.1.99 was followed by sudo activity within 60 seconds",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.0795,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 1,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 100,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Root Login Followed By Privileged Activity involving 'root' from 192.168.1.99. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved; correlated security incident.",
+            "evidence": [
+                "Successful root login from 192.168.1.99 was followed by sudo activity within 60 seconds",
+                "Source IP: 192.168.1.99",
+                "Username: root",
+                "Attack type: Root Login Followed By Sudo",
+                "Incident type: Root Login Followed By Privileged Activity",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "A successful root SSH login was followed by sudo/privileged command activity inside the correlation window.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 192.168.1.99 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Root Login Followed By Privileged Activity",
+        "attack_type": "Root Login Followed By Sudo",
+        "severity": "HIGH",
+        "source_ip": "172.16.0.25",
+        "username": "root",
+        "login_time": "2026-08-30T10:04:00",
+        "sudo_time": "2026-08-30T10:04:15",
+        "command": null,
+        "window_seconds": 60,
+        "description": "Successful root login from 172.16.0.25 was followed by sudo activity within 60 seconds",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.0795,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 1,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 100,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Root Login Followed By Privileged Activity involving 'root' from 172.16.0.25. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved; correlated security incident.",
+            "evidence": [
+                "Successful root login from 172.16.0.25 was followed by sudo activity within 60 seconds",
+                "Source IP: 172.16.0.25",
+                "Username: root",
+                "Attack type: Root Login Followed By Sudo",
+                "Incident type: Root Login Followed By Privileged Activity",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "A successful root SSH login was followed by sudo/privileged command activity inside the correlation window.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 172.16.0.25 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Root Login Followed By Privileged Activity",
+        "attack_type": "Root Login Followed By Sudo",
+        "severity": "HIGH",
+        "source_ip": "172.16.0.25",
+        "username": "root",
+        "login_time": "2026-08-30T10:04:00",
+        "sudo_time": "2026-08-30T10:04:20",
+        "command": null,
+        "window_seconds": 60,
+        "description": "Successful root login from 172.16.0.25 was followed by sudo activity within 60 seconds",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.0795,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 1,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 100,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Root Login Followed By Privileged Activity involving 'root' from 172.16.0.25. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved; correlated security incident.",
+            "evidence": [
+                "Successful root login from 172.16.0.25 was followed by sudo activity within 60 seconds",
+                "Source IP: 172.16.0.25",
+                "Username: root",
+                "Attack type: Root Login Followed By Sudo",
+                "Incident type: Root Login Followed By Privileged Activity",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "A successful root SSH login was followed by sudo/privileged command activity inside the correlation window.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 172.16.0.25 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Multiple Accounts From Same IP",
+        "attack_type": "Account Enumeration",
+        "severity": "HIGH",
+        "source_ip": "192.168.1.80",
+        "targeted_accounts": [
+            "guest",
+            "admin",
+            "test"
+        ],
+        "account_count": 3,
+        "attempts": 3,
+        "window_start": "2026-08-30T10:12:00",
+        "window_end": "2026-08-30T10:12:10",
+        "window_seconds": 60,
+        "description": "Source IP 192.168.1.80 attempted authentication against 3 different accounts within 60 seconds",
+        "risk_score": 80,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": -0.0624,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 3,
+            "risk_score": 80,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Multiple Accounts From Same IP involving 'unknown user' from 192.168.1.80. Risk 80/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; correlated security incident.",
+            "evidence": [
+                "Source IP 192.168.1.80 attempted authentication against 3 different accounts within 60 seconds",
+                "Source IP: 192.168.1.80",
+                "Window start: 2026-08-30T10:12:00",
+                "Attack type: Account Enumeration",
+                "Incident type: Multiple Accounts From Same IP",
+                "Risk factor: HIGH severity",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "One source IP tried several usernames in a short window, which is typical of account enumeration or password spraying.",
+            "investigation_steps": [
+                "Confirm whether login activity for '<account>' from 192.168.1.80 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 80/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Multiple Accounts From Same IP",
+        "attack_type": "Account Enumeration",
+        "severity": "HIGH",
+        "source_ip": "192.168.1.80",
+        "targeted_accounts": [
+            "guest",
+            "admin",
+            "test"
+        ],
+        "account_count": 3,
+        "attempts": 3,
+        "window_start": "2026-08-30T10:12:00",
+        "window_end": "2026-08-30T10:12:10",
+        "window_seconds": 60,
+        "description": "Source IP 192.168.1.80 attempted authentication against 3 different accounts within 60 seconds",
+        "risk_score": 80,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": -0.0624,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 3,
+            "risk_score": 80,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Multiple Accounts From Same IP involving 'unknown user' from 192.168.1.80. Risk 80/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; correlated security incident.",
+            "evidence": [
+                "Source IP 192.168.1.80 attempted authentication against 3 different accounts within 60 seconds",
+                "Source IP: 192.168.1.80",
+                "Window start: 2026-08-30T10:12:00",
+                "Attack type: Account Enumeration",
+                "Incident type: Multiple Accounts From Same IP",
+                "Risk factor: HIGH severity",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "One source IP tried several usernames in a short window, which is typical of account enumeration or password spraying.",
+            "investigation_steps": [
+                "Confirm whether login activity for '<account>' from 192.168.1.80 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 80/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     },
     {
         "incident_type": "Multiple Failed Logins Then Root Login",
@@ -793,7 +3443,125 @@
         "window_start": "2026-07-18T06:10:00",
         "root_login_time": "2026-07-18T06:10:25",
         "window_seconds": 60,
-        "description": "3 failed authentication attempts from 198.51.100.77 were followed by a successful root login within 60 seconds"
+        "description": "3 failed authentication attempts from 198.51.100.77 were followed by a successful root login within 60 seconds",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "CRITICAL severity",
+            "multiple failed auth attempts",
+            "successful auth after failures",
+            "root account involved",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.1138,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 3,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 1,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 3,
+            "risk_score": 100,
+            "severity_rank": 4
+        },
+        "ai_analysis": {
+            "summary": "Multiple Failed Logins Then Root Login involving 'root' from 198.51.100.77. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: CRITICAL severity; multiple failed auth attempts; successful auth after failures; root account involved; correlated security incident.",
+            "evidence": [
+                "3 failed authentication attempts from 198.51.100.77 were followed by a successful root login within 60 seconds",
+                "Source IP: 198.51.100.77",
+                "Username: root",
+                "Failed attempts: 3",
+                "Root login time: 2026-07-18T06:10:25",
+                "Window start: 2026-07-18T06:10:00",
+                "Attack type: Possible Root Account Compromise",
+                "Incident type: Multiple Failed Logins Then Root Login",
+                "Risk factor: CRITICAL severity",
+                "Risk factor: multiple failed auth attempts",
+                "Risk factor: successful auth after failures",
+                "Risk factor: root account involved"
+            ],
+            "attack_pattern": "Repeated authentication failures were followed by a successful root login. This is consistent with targeting of a privileged account.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 198.51.100.77 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: CRITICAL severity, multiple failed auth attempts, successful auth after failures, root account involved, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Multiple Failed Logins Then Root Login",
+        "attack_type": "Possible Root Account Compromise",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.1.100",
+        "username": "root",
+        "failed_attempts": 3,
+        "window_start": "2026-08-30T10:00:00",
+        "root_login_time": "2026-08-30T10:00:20",
+        "window_seconds": 60,
+        "description": "3 failed authentication attempts from 192.168.1.100 were followed by a successful root login within 60 seconds",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "CRITICAL severity",
+            "multiple failed auth attempts",
+            "successful auth after failures",
+            "root account involved",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.1138,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 3,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 1,
+            "root_account": 1,
+            "privileged_activity": 0,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 3,
+            "risk_score": 100,
+            "severity_rank": 4
+        },
+        "ai_analysis": {
+            "summary": "Multiple Failed Logins Then Root Login involving 'root' from 192.168.1.100. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: CRITICAL severity; multiple failed auth attempts; successful auth after failures; root account involved; correlated security incident.",
+            "evidence": [
+                "3 failed authentication attempts from 192.168.1.100 were followed by a successful root login within 60 seconds",
+                "Source IP: 192.168.1.100",
+                "Username: root",
+                "Failed attempts: 3",
+                "Root login time: 2026-08-30T10:00:20",
+                "Window start: 2026-08-30T10:00:00",
+                "Attack type: Possible Root Account Compromise",
+                "Incident type: Multiple Failed Logins Then Root Login",
+                "Risk factor: CRITICAL severity",
+                "Risk factor: multiple failed auth attempts",
+                "Risk factor: successful auth after failures",
+                "Risk factor: root account involved"
+            ],
+            "attack_pattern": "Repeated authentication failures were followed by a successful root login. This is consistent with targeting of a privileged account.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 192.168.1.100 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: CRITICAL severity, multiple failed auth attempts, successful auth after failures, root account involved, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     },
     {
         "incident_type": "Authentication Then Suspicious Sudo",
@@ -804,6 +3572,334 @@
         "authentication_time": "2026-08-01T08:07:00",
         "sudo_time": "2026-08-01T08:08:00",
         "window_seconds": 60,
-        "description": "Successful authentication for 'root' was followed by suspicious sudo activity within 60 seconds"
+        "description": "Successful authentication for 'root' was followed by suspicious sudo activity within 60 seconds",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.0795,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 1,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 100,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Authentication Then Suspicious Sudo involving 'root' from 192.168.1.99. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved; correlated security incident.",
+            "evidence": [
+                "Successful authentication for 'root' was followed by suspicious sudo activity within 60 seconds",
+                "Source IP: 192.168.1.99",
+                "Username: root",
+                "Attack type: Privilege Escalation",
+                "Incident type: Authentication Then Suspicious Sudo",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "A successful authentication was followed by sudo activity, which may indicate privilege escalation or post-compromise administration.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 192.168.1.99 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Authentication Then Suspicious Sudo",
+        "attack_type": "Privilege Escalation",
+        "severity": "HIGH",
+        "username": "root",
+        "source_ip": "172.16.0.25",
+        "authentication_time": "2026-08-30T10:04:00",
+        "sudo_time": "2026-08-30T10:04:15",
+        "window_seconds": 60,
+        "description": "Successful authentication for 'root' was followed by suspicious sudo activity within 60 seconds",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.0795,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 1,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 100,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Authentication Then Suspicious Sudo involving 'root' from 172.16.0.25. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved; correlated security incident.",
+            "evidence": [
+                "Successful authentication for 'root' was followed by suspicious sudo activity within 60 seconds",
+                "Source IP: 172.16.0.25",
+                "Username: root",
+                "Attack type: Privilege Escalation",
+                "Incident type: Authentication Then Suspicious Sudo",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "A successful authentication was followed by sudo activity, which may indicate privilege escalation or post-compromise administration.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 172.16.0.25 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Authentication Then Suspicious Sudo",
+        "attack_type": "Privilege Escalation",
+        "severity": "HIGH",
+        "username": "root",
+        "source_ip": "172.16.0.25",
+        "authentication_time": "2026-08-30T10:04:00",
+        "sudo_time": "2026-08-30T10:04:20",
+        "window_seconds": 60,
+        "description": "Successful authentication for 'root' was followed by suspicious sudo activity within 60 seconds",
+        "risk_score": 100,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "root account involved",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.0795,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 1,
+            "privileged_activity": 1,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 100,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Authentication Then Suspicious Sudo involving 'root' from 172.16.0.25. Risk 100/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; root account involved; correlated security incident.",
+            "evidence": [
+                "Successful authentication for 'root' was followed by suspicious sudo activity within 60 seconds",
+                "Source IP: 172.16.0.25",
+                "Username: root",
+                "Attack type: Privilege Escalation",
+                "Incident type: Authentication Then Suspicious Sudo",
+                "Risk factor: HIGH severity",
+                "Risk factor: root account involved",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "A successful authentication was followed by sudo activity, which may indicate privilege escalation or post-compromise administration.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'root' from 172.16.0.25 was expected.",
+                "Treat this as privileged-account investigation: inspect root history and sudoers usage.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 100/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, root account involved, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "Authentication Then Suspicious Sudo",
+        "attack_type": "Privilege Escalation",
+        "severity": "HIGH",
+        "username": "alice",
+        "source_ip": "192.168.1.50",
+        "authentication_time": "2026-08-30T10:06:00",
+        "sudo_time": "2026-08-30T10:06:10",
+        "window_seconds": 60,
+        "description": "Successful authentication for 'alice' was followed by suspicious sudo activity within 60 seconds",
+        "risk_score": 80,
+        "risk_level": "CRITICAL",
+        "risk_factors": [
+            "HIGH severity",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": 0.0064,
+        "ml_is_anomaly": true,
+        "ml_status": "anomaly",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 1,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 80,
+            "severity_rank": 3
+        },
+        "ai_analysis": {
+            "summary": "Authentication Then Suspicious Sudo involving 'alice' from 192.168.1.50. Risk 80/100 (CRITICAL). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: HIGH severity; correlated security incident.",
+            "evidence": [
+                "Successful authentication for 'alice' was followed by suspicious sudo activity within 60 seconds",
+                "Source IP: 192.168.1.50",
+                "Username: alice",
+                "Attack type: Privilege Escalation",
+                "Incident type: Authentication Then Suspicious Sudo",
+                "Risk factor: HIGH severity",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "A successful authentication was followed by sudo activity, which may indicate privilege escalation or post-compromise administration.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'alice' from 192.168.1.50 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 80/100 (CRITICAL). That score is rule-based and was increased by: HIGH severity, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "SSH Login Then Session Activity",
+        "attack_type": "Post-Authentication Activity",
+        "severity": "MEDIUM",
+        "username": "bob",
+        "source_ip": "192.168.1.60",
+        "login_time": "2026-08-30T10:08:00",
+        "session_time": "2026-08-30T10:08:10",
+        "window_seconds": 60,
+        "description": "Successful SSH login for 'bob' was followed by session activity within 60 seconds",
+        "risk_score": 55,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "MEDIUM severity",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": -0.1354,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 55,
+            "severity_rank": 2
+        },
+        "ai_analysis": {
+            "summary": "SSH Login Then Session Activity involving 'bob' from 192.168.1.60. Risk 55/100 (MEDIUM). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: MEDIUM severity; correlated security incident.",
+            "evidence": [
+                "Successful SSH login for 'bob' was followed by session activity within 60 seconds",
+                "Source IP: 192.168.1.60",
+                "Username: bob",
+                "Attack type: Post-Authentication Activity",
+                "Incident type: SSH Login Then Session Activity",
+                "Risk factor: MEDIUM severity",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "A successful SSH login was followed by a session open/close event.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'bob' from 192.168.1.60 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 55/100 (MEDIUM). That score is rule-based and was increased by: MEDIUM severity, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
+    },
+    {
+        "incident_type": "SSH Login Then Session Activity",
+        "attack_type": "Post-Authentication Activity",
+        "severity": "MEDIUM",
+        "username": "bob",
+        "source_ip": "192.168.1.60",
+        "login_time": "2026-08-30T10:08:00",
+        "session_time": "2026-08-30T10:08:30",
+        "window_seconds": 60,
+        "description": "Successful SSH login for 'bob' was followed by session activity within 60 seconds",
+        "risk_score": 55,
+        "risk_level": "MEDIUM",
+        "risk_factors": [
+            "MEDIUM severity",
+            "correlated security incident"
+        ],
+        "ml_anomaly_score": -0.1354,
+        "ml_is_anomaly": false,
+        "ml_status": "typical",
+        "ml_note": "Prototype Isolation Forest trained on synthetic baseline traffic, not on a large labeled production dataset. Do not treat scores as production detection accuracy.",
+        "ml_features": {
+            "failed_attempts": 0,
+            "invalid_user_attempts": 0,
+            "success_after_failures": 0,
+            "root_account": 0,
+            "privileged_activity": 0,
+            "correlated_incident": 1,
+            "source_ip_count": 1,
+            "event_count": 1,
+            "risk_score": 55,
+            "severity_rank": 2
+        },
+        "ai_analysis": {
+            "summary": "SSH Login Then Session Activity involving 'bob' from 192.168.1.60. Risk 55/100 (MEDIUM). This explanation is generated after detection, correlation, and scoring.",
+            "why_suspicious": "The activity is treated as suspicious because: MEDIUM severity; correlated security incident.",
+            "evidence": [
+                "Successful SSH login for 'bob' was followed by session activity within 60 seconds",
+                "Source IP: 192.168.1.60",
+                "Username: bob",
+                "Attack type: Post-Authentication Activity",
+                "Incident type: SSH Login Then Session Activity",
+                "Risk factor: MEDIUM severity",
+                "Risk factor: correlated security incident"
+            ],
+            "attack_pattern": "A successful SSH login was followed by a session open/close event.",
+            "investigation_steps": [
+                "Confirm whether login activity for 'bob' from 192.168.1.60 was expected.",
+                "Review auth.log / journalctl around the incident timestamps for additional hosts and commands.",
+                "Check for other successful logins, sudo commands, and file changes after the success time.",
+                "If unauthorized: disable the account or SSH key, rotate credentials, and isolate the host."
+            ],
+            "risk_explanation": "risk_score.py assigned 55/100 (MEDIUM). That score is rule-based and was increased by: MEDIUM severity, correlated security incident. The AI analyst does not recalculate or override this number.",
+            "analyst_mode": "offline"
+        }
     }
 ]
